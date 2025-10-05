@@ -1,0 +1,53 @@
+CO2 Rise Directly Impairs Crop Nutritional Quality
+Data S2: Read Me file for the input database (Data S1)
+
+By S.F. ter Haar*, P.M. van Bodegom, and L. Scherer
+Institute of Environmental Sciences (CML), Leiden University, Leiden, The Netherlands
+*email: s.f.ter.haar@cml.leidenuniv.nl
+
+									
+Column Name				Explanation		
+Scientific Name				scientific name, binomial nomenclature + cultivar in single quotation marks when provided
+Family					scientific family name
+Genus					scientific genus name
+Species					scientific species name
+Cultivar				scientific cultivar name
+Common Name				common/colloquial name in English
+Photosynthetic Pathway			photosynthetic pathway (e.g. C3/C4)
+tissue					tissue type sampled for analysis (if multiple tissues were sampled, only the most commonly eaten one is included in the database)
+Study Type				experimental method (FACE, OTC, chamber, greenhouse, tunnel)
+Plot Type				experimental planting method (field or pot)
+Elevated CO2				experimental elevated CO2 level	in ppm
+Ambient CO2				experimental ambient CO2 level in ppm. Unreported values were determined using the Keeling Curve
+Added CO2				added CO2 level in ppm (=eco2-aco2)
+Additional Info				co-factors not otherwise categorized, or used to differentiate between datasets in the same report
+Elevated temperature			details on temperature if used as an experimental factor.
+						Single numbers are the amount added to ambient. Numbers separated by a slash are day/night temperature, 
+						given only if multiple temperature regimes are used. All numbers given in degrees Celsius.	
+Irrigation				details on irrigation if used as an experimental factor	
+Sowing Time				details on sowing time if used as an experimental factor. TOS='time of sowing'
+Phosphorous application			details on phosphorous application if used as an experimental factor
+Nitrogen application			details on nitrogen application if used as an experimental factor
+Ozone					details on ozone application if used as an experimental factor
+Year					year(s) experiment was conducted
+Latitude				latitude of experimental locations for outdoor (FACE, OTC) experiments in decimal degrees
+						When unavailable, the nearest relevant research facility is used.
+Longitude				longitude of experimental locations for outdoor (FACE, OTC) experiments in decimal degrees
+						When unavailable, the nearest relevant research facility is used.
+Country					country location used in OTC and FACE studies, since they are conducted outdoors
+Reference				short citation of the data source
+						full citations are given in 'CO2_Rise_Crop_Quality_SI_Data Sources.csv'
+n						number of paired observations or replicas used to calculate the mean percentage change (delta) and natural log response (ln r)
+element					nutrient analyzed (chemical element, protein, or phytate given as 'Phyt')
+delta					mean percentage change of the element in the sample
+ln r					natural log response ratio
+Origin					who made us aware of the data. 'Loladze', 'Myers', 'Dietterich' is for references obtained via Loladze (2014), 
+						Myers et al. (2014), and Dietterich et al. (2015) respectively. 'Fernando' refers to the work from N. Fernando 
+						in 2012 and 2014, which were used in Dietterich et al. (2015). We elected to pull the data directly from her published work. See: 
+						2012a: Fernando et al. (2012) doi: 10.1016/j.foodchem.2012.01.105
+						2012b: Fernando et al. (2012) doi: 10.1007/978-94-007-4450-9_28
+						2012c: Fernando et al. (2012) doi: 10.1016/j.jcs.2012.07.010
+						2014a: Fernando et al. (2014) doi: 10.1016/j.jcs.2013.12.002
+						2014b: Fernando et al. (2014) doi: 10.1016/j.agee.2013.11.023
+						'Snowball' refers to papers that cite Loladze, Myers, or Dietterich, as well as their references.
+Year 					year of journal article publication

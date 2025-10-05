@@ -1,0 +1,28 @@
+CO2 Rise Directly Impairs Crop Nutritional Quality
+Data S4: Read Me file for the bootstrapping results (Data S3)
+
+By S.F. ter Haar*, P.M. van Bodegom, and L. Scherer
+Institute of Environmental Sciences (CML), Leiden University, Leiden, The Netherlands
+*email: s.f.ter.haar@cml.leidenuniv.nl
+									
+Column Name		Explanation		
+mean			mean of the bootstrapped ln r
+2.5			2.5 level of the bootstrapped ln r confidence interval
+97.5			97.5 level of the bootstrapped ln r confidence interval
+power			calculated power
+p-value			calculated p-value (two-sided)
+m			group size (i.e. number of pairs)
+class			factors used to divide the group, separated by a plus (+) sign
+studytype		gives aggregation level of study types, else blank (whole dataset/subset)
+plottype		gives aggregation level of plot types, else blank (whole dataset/)
+element			gives aggregation level of elements, else blank (whole dataset/subset)
+c3c4			gives aggregation level of photosynthetic pathways, else blank (whole dataset/subset)
+tissue			gives aggregation level of tissues, else blank (whole dataset/subset)
+Family			gives aggregation level of Family, else blank (whole dataset/subset)
+Genus			gives aggregation level of Genus, else blank (whole dataset/subset)
+Common Name		gives aggregation level of Common Name, else blank (whole dataset/subset)
+Species			gives aggregation level of Species, else blank (whole dataset/subset)
+Cultivar		gives aggregation level of Cultivar, else blank (whole dataset/subset)
+2.50%			2.5 level of the bootstrapped ln r converted back to percentage change
+mean%			mean level of the bootstrapped ln r converted back to percentage change
+97.5%			97.5 level of the bootstrapped ln r converted back to percentage change
