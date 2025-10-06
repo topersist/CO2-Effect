@@ -5,7 +5,7 @@ Institute of Environmental Sciences (CML), Leiden University, Leiden, The Nether
 \*email: s.f.ter.haar@cml.leidenuniv.nl
 
 
-This repository includes the files created and used in 'CO2 Rise Directly Impairs Crop Nutritional Quality' published by Global Change Biology.
+This repository includes the files created and used in 'CO2 Rise Directly Impairs Crop Nutritional Quality' accepted by Global Change Biology.
 The data and code that support the findings of this study are openly available in Zenodo at http://doi.org/10.5281/zenodo.17274164.
 To cite this work, please use the DOI of the Zenodo deposit.
 Three additional files are uploaded as Supplementary Information and are not included here. They are:
